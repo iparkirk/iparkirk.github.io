@@ -662,37 +662,37 @@ The code maybe used for educational and commercial use under no warranties.
     </item>
     
     <item>
-      <title>Feature Engineering and Predictive Modeling</title>
+      <title>Chemistry-Biology Knowledge Association Based Prediction and Generation by AI</title>
       <link>https://iparkirk.github.io/research/protml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://iparkirk.github.io/research/protml/</guid>
-      <description>&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML15.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML16.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML17.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML18.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML19.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML20.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML22.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML23.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML24.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML25.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML26.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML27.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
-&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML28.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+      <description>&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-15.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-16.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-17.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-18.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-19.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-20.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-22.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-23.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-24.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-25.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-26.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-27.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/generator/ipark_ChemBioAssociationGenerator-28.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
 </description>
     </item>
     
