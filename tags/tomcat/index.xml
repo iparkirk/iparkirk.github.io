@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tomcat on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/tomcat/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (Tomcat)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://iparkirk.github.io/tags/tomcat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GNT Market Full Stack Web App</title>
+      <link>https://iparkirk.github.io/projects/gntmarket/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/gntmarket/</guid>
+      <description>&lt;h3 id=&#34;grocery-nutrient-tracker&#34; &gt;Grocery Nutrient Tracker
+&lt;span&gt;
+    &lt;a href=&#34;#grocery-nutrient-tracker&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;cs157a_team11-inhee-park--tracy-ho&#34; &gt;CS157A_Team11 (Inhee Park | Tracy Ho)
+&lt;span&gt;
+    &lt;a href=&#34;#cs157a_team11-inhee-park--tracy-ho&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+Main theme of this web app is to help users to get a convenient and healthy selection for the grocery list. Users can generate their grocery list by selecting a dish, which internally converts a dish to ingredient food items and/or by adding food items directly. User customized dietary restrictions and preferences are taken into consideration when generating a grocery list. 
+&lt;/blockquote&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/updated_ERD.png&#34; width=&#34;650&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/updated_schema.png&#34;  width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/3tier.png&#34;  width=&#34;650&#34;&gt;
+&lt;h3 id=&#34;webapp-screenshots&#34; &gt;WebApp Screenshots
+&lt;span&gt;
+    &lt;a href=&#34;#webapp-screenshots&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/welcome.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/welcome2.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/food.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/result.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/dish.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/hamburger.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/hamburger2.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/check.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/final.png&#34;  width=&#34;700&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

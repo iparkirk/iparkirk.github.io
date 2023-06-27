@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Reinforcement Learning on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/deep-reinforcement-learning/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (Deep Reinforcement Learning)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://iparkirk.github.io/tags/deep-reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Harnessing the Malware Detection ML Models using Deep Reinforcement Learning</title>
+      <link>https://iparkirk.github.io/projects/malwareevasion/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/malwareevasion/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Final aim of this project is to harness malware detection machine learning (ML) models using deep reinforcement learning (DRL). There are two stages toward the final goal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Malware writer&amp;rsquo;s perspective to weaken malware detector :
+generating invasive malware data representing the adversarial space to evade the ML detection model&lt;/li&gt;
+&lt;li&gt;Malware defender&amp;rsquo;s perspective to harness malware detector :  using the generated adversarial data, retraining the malware detection ML model in several rounds in a iterative manner for more robust malware detection capability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Currently this project is at the first phase. The DRL framework let the agent to learn the value-function in end-to-end way (input → black-box → output):&lt;/p&gt;
+&lt;p&gt;Input of the DRL Environment is malware portable executable (PE) files.
+Outputs from the DRL Environment are
+the estimated reward (more reward to the successful evasion); and
+action-state policy (sequence of state-action mapping, where state is PE feature vectors; action is mutation on the PE files).&lt;/p&gt;
+&lt;p&gt;The objective function for the DRL Agent to learn is a value-function (i.e.
+accumulative, discounted reward values) that allows efficiently selecting an action that mutates the PE file to be misclassified as benign (but preserving malign functionality in disguise).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;motivationintroduction&#34; &gt;Motivation/Introduction
+&lt;span&gt;
+    &lt;a href=&#34;#motivationintroduction&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;h3 id=&#34;experiment&#34; &gt;Experiment
+&lt;span&gt;
+    &lt;a href=&#34;#experiment&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;h3 id=&#34;results&#34; &gt;Results
+&lt;span&gt;
+    &lt;a href=&#34;#results&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;h3 id=&#34;future-work&#34; &gt;Future Work
+&lt;span&gt;
+    &lt;a href=&#34;#future-work&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

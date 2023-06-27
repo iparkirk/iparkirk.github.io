@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DL on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/dl/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (DL)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    <atom:link href="https://iparkirk.github.io/tags/dl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Semantic Textual Similarity Using Transfer Learning and Embeddings</title>
+      <link>https://iparkirk.github.io/projects/sts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/sts/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;Semantic Textual Similarity (STS) is a one of Natural Language Processing
+tasks to measure closeness of contextual meaning of given words, sentences or paragraphs as the way of human understands language using a computer model. Owing to the state-of-art, general-purpose, deep learning based NLP model such as BERT, we can build a STS model utilizing Transfer Learning without training a model from scratch.  The core theme of this project is to understand word or sentence embeddings, which are features of textual data in numerical representative vectors. We use various embeddings as features to measure semantic metric such as cosine similarity and angular distance similarity. Finally, we build a semantic search engine trained on the Quora Question Set using the best embeddings together with faster and efficient `Approximate k-Nearest Neighbors&#39; (AkNN) in lieu of brute-force cosine similarity metric.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;codes-colab-notebookhttpsgitlabcomiparkcs274-wiblobmasterwiprojectcodecs274-semantictexualsimilarityipynb&#34;&gt;Codes: &lt;a href=&#34;https://gitlab.com/ipark/cs274-wi/blob/master/WIproject/Code/CS274-SemanticTexualSimilarity.ipynb&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;report-reporthttpsgitlabcomiparkcs274-wiblobmasterwiprojectieeecs274-finalreport-inheeparkpdf&#34;&gt;Report: &lt;a href=&#34;https://gitlab.com/ipark/cs274-wi/blob/master/WIproject/IEEE/CS274-FinalReport-InheePark.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Report&lt;/a&gt;&lt;/h4&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-20.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis Using Machine Learning and Deep Learning</title>
+      <link>https://iparkirk.github.io/projects/sa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/sa/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Sentiment Analysis&amp;rdquo; (positive, negative polarity classification on the social
+media or customer reviews) is chosen as a major topic in the project, because&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it is a text-based classification task in Natural Language Processing (NLP);&lt;/li&gt;
+&lt;li&gt;it can be analysed by classifiers in Machine Learning such as Support Vector Machine (linear classifier) and Naive Bayesian Model (probabilistic classifier);&lt;/li&gt;
+&lt;li&gt;moreover, it can be explored by pre-trained state-of-art NLP model (BERT) from Transfer Learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our Sentiment Analysis results show that primitive TF-IDF with Naive Bayes (80%) outperforms the start-of-art BERT (75%). Perhaps depending on the specific NLP task, not always contextualized embedding is required to capture the simple polarity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;codes-colab-notebookhttpsgitlabcomiparkcs271-mlblobmastermlprojectcodecs271_sentimentanalysis_inheeparkipynb&#34;&gt;Codes: &lt;a href=&#34;https://gitlab.com/ipark/cs271-ml/blob/master/MLproject/Code/CS271_SentimentAnalysis_InheePark.ipynb&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;report-reporthttpsgitlabcomiparkcs271-mlblobmastermlprojectieeecs271-project-parkpdf&#34;&gt;Report: &lt;a href=&#34;https://gitlab.com/ipark/cs271-ml/blob/master/MLproject/IEEE/CS271-Project-PARK.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Report&lt;/a&gt;&lt;/h4&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantization on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/quantization/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (Quantization)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://iparkirk.github.io/tags/quantization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lighter, Faster Semantic Segmentation by Post-Training Quantization and Quantization-Aware Training</title>
+      <link>https://iparkirk.github.io/projects/deeplab/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/deeplab/</guid>
+      <description>&lt;h3 id=&#34;image-segmentation-with-deeplab&#34; &gt;Image Segmentation With Deeplab
+&lt;span&gt;
+    &lt;a href=&#34;#image-segmentation-with-deeplab&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Image Segmentation using Deeplab v3+&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34; &gt;Summary
+&lt;span&gt;
+    &lt;a href=&#34;#summary&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Experimenting with Quantization of Tensorflow Models on various datasets with the DeepLab v3 Decoder architecture and MobileNet v2 Encoder architecture using a variety of techniques including 
+&lt;ul&gt;
+  &lt;li&gt;Quantization aware training &lt;/li&gt;
+  &lt;li&gt;Quantization aware training with delay &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs256-ai/blob/master/ImageSegmentationWithDeeplab/CS256_GroupE_PostQuantization.ipynb&#34;&gt;Post training Quantization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href=&#34;https://gitlab.com/ipark/cs256-ai/blob/master/ImageSegmentationWithDeeplab/CS256_GroupE_inference_deeplab.ipynb&#34;&gt;Quantized Inference/Evalulation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presentation-slide&#34; &gt;Presentation Slide
+&lt;span&gt;
+    &lt;a href=&#34;#presentation-slide&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs256-ai/blob/master/ImageSegmentationWithDeeplab/docs/CS256_GroupE_Final_Presentation.pdf&#34;&gt;
+     Lighter, Faster Semantic Segmentation by Post-Training Quantization and Quantization-Aware Training&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deeplab-deep-labelling-for-semantic-image-segmentation&#34; &gt;DeepLab: Deep Labelling for Semantic Image Segmentation
+&lt;span&gt;
+    &lt;a href=&#34;#deeplab-deep-labelling-for-semantic-image-segmentation&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;@inproceedings{deeplabv3plus2018,
+title={Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation},
+author={Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam},
+booktitle={ECCV},
+year={2018}
+}&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34; &gt;Installation
+&lt;span&gt;
+    &lt;a href=&#34;#installation&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;pip install all the following required packages.&lt;/p&gt;
+&lt;h3 id=&#34;requirement&#34; &gt;Requirement
+&lt;span&gt;
+    &lt;a href=&#34;#requirement&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;TensorFlow 1.15&lt;/li&gt;
+  &lt;li&gt;Jupyter Notebook&lt;/li&gt;
+  &lt;li&gt;Python 3.6&lt;/li&gt;
+  &lt;li&gt;Numpy&lt;/li&gt;
+  &lt;li&gt;Pillow&lt;/li&gt;
+  &lt;li&gt;matplotlib&lt;/li&gt;
+  &lt;li&gt;conda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: For a ready to use envirenment, a deeplearning ami on an EC2 instance would come with all the required packages needed to run this repo immediatly. &lt;/p&gt;
+&lt;h3 id=&#34;usage-on-colab&#34; &gt;Usage on Colab
+&lt;span&gt;
+    &lt;a href=&#34;#usage-on-colab&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+ &lt;li&gt;Fine-tuning and Quantization&lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/quantize.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Inference&lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/inference.png&#34; width=&#34;80%&#34;&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usage-on-aws&#34; &gt;Usage on AWS
+&lt;span&gt;
+    &lt;a href=&#34;#usage-on-aws&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;clone the repo&lt;/li&gt;
+  &lt;li&gt;navigate to ImageSegmentationWithDeeplab (command: cd ImageSegmentationWithDeeplab)&lt;/li&gt;  
+  &lt;li&gt;run the command &#34;jupyter notebook&#34;&lt;/li&gt;  
+  &lt;li&gt;use the provided url (default: localhost:8888)&lt;/li&gt;
+  &lt;li&gt;open the &#34;inference_deeplab.ipynb&#34; notebook&lt;/li&gt;
+  &lt;li&gt;From drop down list Cell &gt; Run All &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;results&#34; &gt;Results
+&lt;span&gt;
+    &lt;a href=&#34;#results&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+ &lt;li&gt;FLOAT32 Segmentation&lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/mobileNetv2-f32.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Post-Quantization UINT8 Segmentation (no fine-tuning) &lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/postQuant-8bit-noFT.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Post-Quantization UINT8  Segmentation (10K-iteration fine-tuning) &lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/postQuant-8bit-10kFT.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Quantization-Aware-Training UNIT8 Segmentation &lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/QAT-8bit.png&#34; width=&#34;80%&#34;&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;about&#34; &gt;About:
+&lt;span&gt;
+    &lt;a href=&#34;#about&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;This page (code, report and presentation) is the group &#34;E&#34; submission for Final project for CS256: Selected Topics in Artificial Intelligence, Section 2. Leb by Instructor: Mashhour Solh, Ph.D.
+&lt;/br&gt;
+The group members are:
+&lt;ul&gt;
+  &lt;li&gt;Sherif Elsaid&lt;/li&gt;
+  &lt;li&gt;Inhee Park&lt;/li&gt;
+  &lt;li&gt;Sagar Shahi&lt;/li&gt;
+  &lt;li&gt;Sriram Priyatham Siram&lt;/li&gt;
+  &lt;li&gt;Anand Vishwakarma&lt;/li&gt;
+&lt;/ul&gt;
+The code maybe used for educational and commercial use under no warranties. 
+&lt;/br&gt;For questions on this project and code please reach out to: 
+&lt;/br&gt;&#34;contact@sherifsabri.dev&#34;
+&lt;h3 id=&#34;credits&#34; &gt;Credits
+&lt;span&gt;
+    &lt;a href=&#34;#credits&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;This project was conducted with free credits provided by AWS educate team.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Local Bridges on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/local-bridges/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (Local Bridges)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://iparkirk.github.io/tags/local-bridges/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Power of BTS ARMY for Social Change Envisaged by Twitter Network Analysis</title>
+      <link>https://iparkirk.github.io/projects/sna/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/sna/</guid>
+      <description>&lt;h4 id=&#34;cs185c---social-network-analysis---team-members-inhee--vrinda--anirudh&#34; &gt;CS185C - Social Network Analysis - Team Members: (Inhee | Vrinda | Anirudh)
+&lt;span&gt;
+    &lt;a href=&#34;#cs185c---social-network-analysis---team-members-inhee--vrinda--anirudh&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;In June 2020, BTS (South Korean hip-hop boy group) donated one million dollars
+for Black Lives Matter (BLM). The BTS official fanclub, called ARMY,
+had mobilised via Twitter and decided to match the donation. They used Twitter
+hashtags #MatchAMillion, #Match1Million and #MatchTheMillion to spread word about
+the campaign. Within 24 hours between 7th-8th of June, 2020, the fundraising
+account @OneInAnARMY announced that they had met their goal of 1 million dollars
+for BLM.&lt;/p&gt;
+&lt;p&gt;BTS Army is known for supporting various causes, so the initial campaign was
+not surprising. What was surprising was the speed at which this feat had been
+completed. This 24 hour window became the focal point of our analysis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs185c-sna/-/tree/master/SNAproject/FinalReport/CS185C_FinalReport_Vrinda_Inhee_Anirudh.pdf&#34;&gt;Report&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs185c-sna/-/blob/master/SNAproject/Presenation/CS185C-BLMandBTS.pdf&#34;&gt;Slide&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/BLM.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/BTS.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/data-prep.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/DN.png&#34; width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/LB.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/LB2.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/SA.png&#34; width=&#34;550&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MADRL on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/madrl/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (MADRL)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://iparkirk.github.io/tags/madrl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Published] Multi-Agent Deep Reinforcement Learning for Walker Systems</title>
+      <link>https://iparkirk.github.io/projects/drl/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/drl/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/9680106&#34;&gt;Published Paper in IEEE&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;abstract&#34; &gt;Abstract
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;We apply the state-of-art performance Deep Reinforcement Learning (DRL) algorithm,
+Proximal Policy Optimization (PPO), to the minimal robot-legs locomotion for
+the challenging continuous and high-dimensional state-space multi-agent environments.&lt;/p&gt;
+&lt;p&gt;The discounted, accumulated reward (performance) of multi-agent DRL (MADRL) is
+maximized by hyperparameter tuning. Based on the comprehensive experiments with
+2-10 multi-walkers environment, we found that&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A minibatch size and a sampling reuse ratio (experience replay buffer size containing multiple minibatches) are
+critical hyperparameters to improve performance of the PPO;&lt;/li&gt;
+&lt;li&gt;Optimal neural network size depends on the number of walkers in the MADRL environments; and&lt;/li&gt;
+&lt;li&gt;Parameter sharing among multi-agent is a better strategy as a number of agent increases than fully independent learning for the MADRL in terms of comparable performance and improved efficiency with  reduced parameters consuming less memory.
+This work showcases one instance of implicit cooperative learning of the MADRL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL25.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL27.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL28.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

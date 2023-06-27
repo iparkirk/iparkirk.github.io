@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://iparkirk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://iparkirk.github.io/resume/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/resume/</guid>
+      <description>&lt;h3 id=&#34;summary&#34; &gt;SUMMARY
+&lt;span&gt;
+    &lt;a href=&#34;#summary&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Machine Learning Engineer in Biotech&lt;/li&gt;
+&lt;li&gt;MS in Computer Science&lt;/li&gt;
+&lt;li&gt;PhD in Computational Chemical Physics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;work-history&#34; &gt;WORK HISTORY
+&lt;span&gt;
+    &lt;a href=&#34;#work-history&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Computational Protein / Machine Learning Engineer, &lt;a href=&#34;https://www.aetherbio.com/&#34;&gt;Aether Biomachines&lt;/a&gt;, Menlo Park, CA [2021-Current]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Machine Learning for Protein Sequence/Structure/Function Prediction &amp;amp; Generation&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Built content-based recommender system :&lt;/strong&gt;
+&lt;em&gt;recommended&lt;/em&gt; chemical reaction pattern similarity-based protein/enzyme sequences;
+&lt;em&gt;expedited&lt;/em&gt; protein/enzyme selection period from one month to one hour;
+&lt;em&gt;resulted&lt;/em&gt; in actuating five new projects in two weeks (Python, Scikit-Learn, Numpy)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Created prompt-engineered sequence generator by Transformer GPT2 :&lt;/strong&gt;
+&lt;em&gt;trained&lt;/em&gt; GPT2 from scratch with BPE tokenizer (chemical reaction and sequence motif-unit tokens);
+&lt;em&gt;elicited&lt;/em&gt; chemical reaction-prompted, diffused protein/enzyme sequences;
+&lt;em&gt;expanded&lt;/em&gt; chemical/biological space to explore for protein design without extensive prior structural knowledge
+(Pytorch, Hugging Face Transformer, ESMfold)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implemented human-in-the-loop training strategy for Active Learning :&lt;/strong&gt;
+&lt;em&gt;improved&lt;/em&gt; predictive model accuracy by 10% by
+&lt;em&gt;redesigning&lt;/em&gt; iterative and interactive training strategy
+&lt;em&gt;querying&lt;/em&gt; low confidence data first from the unlabeled dataset and
+&lt;em&gt;iterative training&lt;/em&gt; with updated trainset (Python, Scikit-Learn, ModAL)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Software Engineering for Computational Structural Biology Tools&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Structured and integrated chem/bio/ML pipelines/toolchains and deployed them in Docker
+(RDkit, CoLab Hallucination/Diffusion, etc)&lt;/li&gt;
+&lt;li&gt;Deployed end-to-end 3D simulation tool from simple JSON inputs using AmberTools/openMM&lt;/li&gt;
+&lt;li&gt;Developed automatic catalytic site identification tool in conjunction with ESMFold, AlphaFold2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Postdoctoral Fellow (Computational Simulation/Modeling), &lt;a href=&#34;https://www.novartis.com/research-development/novartis-institutes-biomedical-research&#34;&gt;Novartis Institutes for BioMedical Research&lt;/a&gt;, San Diego, CA [2012-2016]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Developed Rational Design Model:&lt;/strong&gt;
+&lt;em&gt;developed&lt;/em&gt; a simple, generic yet robust biological simulator outperforming non-profit software by
+&lt;em&gt;accelerating&lt;/em&gt; computation time (GPU-enabled simulation),
+&lt;em&gt;generating/incorporating&lt;/em&gt; ensemble features, and
+&lt;em&gt;benchmarking&lt;/em&gt; against a wide range of biologics systems;
+&lt;em&gt;enabled&lt;/em&gt; the rational experimental design to cut time/labor/budget
+(Python, R, SQLite, GPU-enabled MD suite compile/simulation)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Deployed End-to-End Integrated Tool:&lt;/strong&gt;
+&lt;em&gt;deployed&lt;/em&gt; high-confidence, full de novo sequencing tool for antibody biotherapeutics by
+&lt;em&gt;utilizing&lt;/em&gt; public database and
+&lt;em&gt;reconstructing&lt;/em&gt; short tags by Dynamic Programming;
+&lt;em&gt;provided fully functional in-house service&lt;/em&gt; at no risk of confidential information
+disclosure by leveraging combined information protocol (genomics/proteomics/informatics)
+(Python, R (ggplot2), Database Retrieval)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Postdoctoral Fellow (Computational Biophysics), &lt;a href=&#34;https://www.cityofhope.org/research/beckman-research-institute&#34;&gt;Beckman Research Institute at City of Hope&lt;/a&gt;, Duarte, CA [2010-2012]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimized the high-dimensional biological sampling space by refinement protocol,
+which was enhanced by reusing the robotics locomotion algorithm used in NASA/JPL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;education&#34; &gt;EDUCATION
+&lt;span&gt;
+    &lt;a href=&#34;#education&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;MS. Computer Science (3.95/4.0), San Jose State University, CA, 2020&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI-publication: &lt;strong&gt;Multi-Agent Deep Reinforcement Learning for Walker Systems&lt;/strong&gt;,
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9680106&#34;&gt;20th IEEE International Conference on ML and Applications (ICMLA)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PhD. Chemical Physics (Computational Drug Design), The Ohio State University, OH, USA, 2010&lt;/p&gt;
+&lt;p&gt;BS. Chemistry and Physics, SookMyung Women&amp;rsquo;s University, Seoul, Korea&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;computer-skills&#34; &gt;COMPUTER SKILLS
+&lt;span&gt;
+    &lt;a href=&#34;#computer-skills&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Programming Languages &amp;ndash;— [Advanced] Python, Pandas, R, Bash, MySQL and LaTeX &amp;mdash;
+[Skilled] Java, C and Verilog with ModelSim&lt;/li&gt;
+&lt;li&gt;ML / Deep Learning &amp;mdash; Scikit-learn, PyTorch; [Deep Reinforcement Learing] Ray RLlib, OpenAI Gym&lt;/li&gt;
+&lt;li&gt;Computational Chemistry/Simulation/Modeling Tools — RDkit, OpenMM, Amber, Schrodinger, ChimeraX&lt;/li&gt;
+&lt;li&gt;Computing Environment &amp;ndash;— Git, Jupyter, Linux, HPC (MPI), GPU Computing, AWS, Conda and Docker&lt;/li&gt;
+&lt;li&gt;Full Stack Web —&amp;ndash; [Front] HTML, CSS, Bootstrap, Hugo, Javascript/jQuery and Ajax; [Server] JSP/Tomcat&lt;/li&gt;
+&lt;li&gt;Social Network &amp;ndash; Gephi, iGraph&lt;/li&gt;
+&lt;li&gt;Computational Simulation &amp;amp; Modeling Tools &amp;mdash; RDkit, OpenMM, Amber, Schrodinger and ChimeraX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;coursework-in-computer-science&#34; &gt;COURSEWORK in COMPUTER SCIENCE
+&lt;span&gt;
+    &lt;a href=&#34;#coursework-in-computer-science&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Graduate Courses&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design and Analysis of Algorithms&lt;/li&gt;
+&lt;li&gt;Practical Computer Vision using Convolutional Neural Networks&lt;/li&gt;
+&lt;li&gt;Cryptography and Computer Security&lt;/li&gt;
+&lt;li&gt;Topics in Machine Learning&lt;/li&gt;
+&lt;li&gt;Topics in Wireless Mobile Networking&lt;/li&gt;
+&lt;li&gt;Web Intelligence (Mining of Massive Dataset)&lt;/li&gt;
+&lt;li&gt;Social Network Analysis&lt;/li&gt;
+&lt;li&gt;Applied Probability and Statistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Undergraduate Courses&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discrete Mathematics&lt;/li&gt;
+&lt;li&gt;Introduction to Computer Systems&lt;/li&gt;
+&lt;li&gt;Data Structures and Algorithms&lt;/li&gt;
+&lt;li&gt;Operating Systems&lt;/li&gt;
+&lt;li&gt;Computer Architecture&lt;/li&gt;
+&lt;li&gt;Object-Oriented Design&lt;/li&gt;
+&lt;li&gt;Introduction to Database Management Systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;csml-projects-in-ai-nlp-social-network--webapp&#34; &gt;CS/ML PROJECTS in AI, NLP, SOCIAL NETWORK &amp;amp; WEBAPP
+&lt;span&gt;
+    &lt;a href=&#34;#csml-projects-in-ai-nlp-social-network--webapp&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Multi-Agent Deep Reinforcement Learning for Walkers (RayRLlib,Python)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(1) Found optimal minibatch size and sampling reuse ratio improve performance of PPO algorithm.
+(2)  Proposed efficient DRL training strategies of transfer learning and parameter sharing for the robot-legs walkers carrying a package:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Semantic Textual Similarity using Transfer Learning and Embeddings (TensorFlow,Python)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Build a Semantic Search Engine as a pragmatic application of Semantic Textual Similarity combined with a faster similarity
+search method of approx- imate k-nearest neighbor: &lt;a href=&#34;https://bit.ly/2Fjzj4j&#34;&gt;https://bit.ly/2Fjzj4j&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sentiment Analysis using Machine Learning and Deep Learning (TensorFlow,Python,C)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Contrary to expectation, the primitive TF-IDF with Naive Bayes classification (80%)
+outperforms the state-of-art contextualized embedding NLP model of BERT (75%) in
+capturing the simple polarity of lecture evaluation reviews: &lt;a href=&#34;https://bit.ly/37zkpTM&#34;&gt;https://bit.ly/37zkpTM&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Lighter, Faster Semantic Segmentation by Post-Training Quantization and Quantization-Aware Training (TensorFlow,Python)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reduced neural network model-size while retaining inference accuracy us- ing various quantization workflows with MobileNet-based semantic seg- mentation framework of DeepLabV3+: &lt;a href=&#34;https://bit.ly/39C1KbM&#34;&gt;https://bit.ly/39C1KbM&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Deep Reinforcement Learning for Resource Management in 5G (RayRLlib)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;DRL is an intelligent network slicing tool to optimize service allocation by maximize the targeted reward function (spectrum efficiency, quality of ex- perience etc.) &lt;a href=&#34;https://bit.ly/380ROtB&#34;&gt;https://bit.ly/380ROtB&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Power of BTS ARMY for Social Change Envisaged by Twitter Network (Gephi,iGraph,R,Python)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Graph Theory based structural analysis &amp;amp; Semantic Network based behavioral analysis
+for the 24 hours of #MatchAMillion Twitter dataset. Bilingual translators play a crucial role as Local Bridges connecting fandom vs. non- fandom communities: &lt;a href=&#34;https://bit.ly/3n4cGp6&#34;&gt;https://bit.ly/3n4cGp6&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Grocery Nutrient Tracker (GNT)-Market Full Stack WebApp (MySQL, Bootstrap, Java, JSP)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(1) Build a full-stack WebApp (Bootstrap for front-end, JSP/Tomcat for Web Server,
+MySQL for back-end) for convenient and healthy selection for gro- cery list.
+(2) Users can generate a personalized grocery list by selecting a dish menu and by
+specifying dietary restriction: &lt;a href=&#34;https://bit.ly/33XhK7O&#34;&gt;https://bit.ly/33XhK7O&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Data Compression using Dictionary-based Technique LZW and Its Variant to GIF Image Data Compression (Python)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Implement the LZW compression algorithm, which is lossless, greedy, and adaptive
+dictionary data structure by taking advantage of the frequency redundancy of
+character-stream: &lt;a href=&#34;https://bit.ly/3n2qlvY&#34;&gt;https://bit.ly/3n2qlvY&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The BlowFish Block Cipher System – Expensive Key Scheduling (Java)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Implement one of the Feistel Block Ciphers, BlowFish, using a built-in functionalities
+from the cryptoUtil. A larger size of subkey space is time-consuming prior to
+encryption, but increases security by making brute-force attempts infeasible:
+&lt;a href=&#34;https://bit.ly/3hwLU6H&#34;&gt;https://bit.ly/3hwLU6H&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;selected-publications&#34; &gt;SELECTED PUBLICATIONS
+&lt;span&gt;
+    &lt;a href=&#34;#selected-publications&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;S. Kyriacou, G. Meshulam-Simon, L. Clark, C. Chia and Inhee Park,
+“Enzyme engineering by means of reaction space indexing coupled with machine learning algorithms”,
+&lt;a href=&#34;https://www.simbhq.org/annual/&#34;&gt;Society for Industrial Microbiology and Biotechnology (SIMB), Aug 2022, San Francisco&lt;/a&gt; &lt;br&gt;
+&lt;sup&gt;#enzyme engineering, #graph neural network (gnn), #machine learning, #automation
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inhee Park and Teng-Sheng Moh,
+“Multi-Agent Deep Reinforcement Learning for Walker Systems”,
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9680106&#34;&gt;2021 20th IEEE International Conference on Machine Learning and Applications (ICMLA),
+2021, pp. 490-495, doi: 10.1109/ICMLA52953.2021.00082.&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;#deep reinforcement learning (drl), #ai, #multi-agent
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inhee Park, J. Venable, C. Steckler, S. Cellitti, S.A. Lesley, G. Spraggon and A. Brock,
+“Estimation of Hydrogen Exchange Protection Factors from MD Simulation Based on Amide Hydrogen Bonding Analysis”.
+&lt;a href=&#34;https://pubs.acs.org/doi/10.1021/acs.jcim.5b00185&#34;&gt;J Chem Inf Model. 55(9):1914-25. 2015&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;#monte carlo, #mass spectrometry, #proteomics, #molecular simulation, #computational structural biology
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inhee Park and A. Brock,
+“Genomics/Proteomics/Informatics Complementary Approach to High Confident Reconstruction of Antibody V-region Sequence”
+&lt;a href=&#34;https://sandiegoacs.org/wp-content/uploads/2022/04/april-2015.pdf&#34;&gt;ACS West Coast Analytical Chemistry Symposium, Apr 2015, San Diego&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#bioinformatics, #genomics, #proteomics, #mass spectrometry, #dynamic programming
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;S. Bhowmik, D. H. Jones, H.-P. Chiu, Inhee Park et al.
+“Structural and Functional Characterization of BaiA, An Enzyme Involved in Secondary Bile Acid Synthesis in Human Gut Microbe”.
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/23836456&#34;&gt;Proteins. 82(2):216- 29. 2014&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#quantum chemistry, #catalytic activity
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inhee Park, V. Gangupomu, J. Wagner, A. Jain and N. Vaidehi,
+“Structure Refinement of Protein Low Resolution Models Using the GNEIMO Constrained Dynamics Method”.
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/22260550&#34;&gt;J Phys Chem B. 116(8):2365-75. 2012&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#homology modeling, #sampling, #molecular simulation, #free energy, #computational structural biology
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A. Jain, Inhee Park and N. Vaidehi, “Equipartition Principle for Internal Coordinate Molecular Dynamics”.
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3549275/&#34;&gt;J Chem Theory Comput. 8(8):2581-2587. 2012&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#free energy
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;V. Gangupomu, J. Wagner, Inhee Park et al.
+“Mapping Conformational Dynamics of Proteins using Torsional Dynamics Simulations”
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/23663843&#34;&gt;Biophys J. 104(9):1999-2008. 2013&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#molecular simulation, #free energy, #computational structural biology
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;G.S. Balaraman, Inhee Park et al.
+“Folding of Small Proteins Using Constrained Molecular Dynamics”
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3124276/&#34;&gt;J Phys Chem B. 115(23):7588-96. 2011&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#protein folding, #molecular simulation, #free energy, #computational structural biology
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;W. Harvey, Inhee Park, O. Rubel, V. Pascucci, P.T. Bremer, C. Li and Y. Wang,
+“A Collaborative Visual Analytics Suite for Protein Folding Research”
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/25068440&#34;&gt;J Mol Graph Model. 53:59-71.2014&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#graph, #folding, #molecular simulation, #free energy, #computational structural biology
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inhee Park and C. Li,
+“Dynamic ligand-induced-fit simulation via enhanced conformational samplings and ensemble dockings: a survivin example”
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/m/pubmed/20337446&#34;&gt;J Phys Chem B. 114(15):5144-53. 2010&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#induced-fit-docking, #molecular simulation, #free energy, #enhanced sampling
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inhee Park and C. Li,
+“Characterization of molecular recognition of STAT3 SH2 domain inhibitors through molecular simulation”
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/21360612&#34;&gt;J Mol Recognition. 24(2):254-65. 2010&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#docking, #molecular simulation, #quantum chemistry, #free energy, #cheminformatics
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;S. Chattier, J. V. Cooley, Inhee Park et al.
+“Design, Synthesis and Biological Studies of Survivin Dimerization Modulators that Prolong Mitotic Cycle”
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/23968825&#34;&gt;Bioorg Med Chem Lett. 23(19):5429-33. 2013&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#in silico design, #docking, #molecular simulation, #cheminformatics, #free energy
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Co-authored with 16 authors,
+“Impairment of Glioma Stem Cell Survival and Growth by a Novel Inhibitor for Survivin–Ran Protein Complex”
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4295559/&#34;&gt;Clin Cancer Res. 19(3):631-42. 2013&lt;/a&gt;  &lt;br&gt;
+&lt;sup&gt;
+#in silico design, #drug repurposing, #translation of breast cancer lead to brain cancer
+&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Published] Multi-Agent Deep Reinforcement Learning for Walker Systems</title>
+      <link>https://iparkirk.github.io/projects/drl/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/drl/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/9680106&#34;&gt;Published Paper in IEEE&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;abstract&#34; &gt;Abstract
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;We apply the state-of-art performance Deep Reinforcement Learning (DRL) algorithm,
+Proximal Policy Optimization (PPO), to the minimal robot-legs locomotion for
+the challenging continuous and high-dimensional state-space multi-agent environments.&lt;/p&gt;
+&lt;p&gt;The discounted, accumulated reward (performance) of multi-agent DRL (MADRL) is
+maximized by hyperparameter tuning. Based on the comprehensive experiments with
+2-10 multi-walkers environment, we found that&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A minibatch size and a sampling reuse ratio (experience replay buffer size containing multiple minibatches) are
+critical hyperparameters to improve performance of the PPO;&lt;/li&gt;
+&lt;li&gt;Optimal neural network size depends on the number of walkers in the MADRL environments; and&lt;/li&gt;
+&lt;li&gt;Parameter sharing among multi-agent is a better strategy as a number of agent increases than fully independent learning for the MADRL in terms of comparable performance and improved efficiency with  reduced parameters consuming less memory.
+This work showcases one instance of implicit cooperative learning of the MADRL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL25.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL27.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/DRL/DRL28.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Power of BTS ARMY for Social Change Envisaged by Twitter Network Analysis</title>
+      <link>https://iparkirk.github.io/projects/sna/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/sna/</guid>
+      <description>&lt;h4 id=&#34;cs185c---social-network-analysis---team-members-inhee--vrinda--anirudh&#34; &gt;CS185C - Social Network Analysis - Team Members: (Inhee | Vrinda | Anirudh)
+&lt;span&gt;
+    &lt;a href=&#34;#cs185c---social-network-analysis---team-members-inhee--vrinda--anirudh&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;In June 2020, BTS (South Korean hip-hop boy group) donated one million dollars
+for Black Lives Matter (BLM). The BTS official fanclub, called ARMY,
+had mobilised via Twitter and decided to match the donation. They used Twitter
+hashtags #MatchAMillion, #Match1Million and #MatchTheMillion to spread word about
+the campaign. Within 24 hours between 7th-8th of June, 2020, the fundraising
+account @OneInAnARMY announced that they had met their goal of 1 million dollars
+for BLM.&lt;/p&gt;
+&lt;p&gt;BTS Army is known for supporting various causes, so the initial campaign was
+not surprising. What was surprising was the speed at which this feat had been
+completed. This 24 hour window became the focal point of our analysis.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs185c-sna/-/tree/master/SNAproject/FinalReport/CS185C_FinalReport_Vrinda_Inhee_Anirudh.pdf&#34;&gt;Report&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs185c-sna/-/blob/master/SNAproject/Presenation/CS185C-BLMandBTS.pdf&#34;&gt;Slide&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/BLM.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/BTS.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/data-prep.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/DN.png&#34; width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/LB.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/LB2.png&#34; width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/cs185c-sna/-/raw/master/SNAproject/img/SA.png&#34; width=&#34;550&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GNT Market Full Stack Web App</title>
+      <link>https://iparkirk.github.io/projects/gntmarket/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/gntmarket/</guid>
+      <description>&lt;h3 id=&#34;grocery-nutrient-tracker&#34; &gt;Grocery Nutrient Tracker
+&lt;span&gt;
+    &lt;a href=&#34;#grocery-nutrient-tracker&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;cs157a_team11-inhee-park--tracy-ho&#34; &gt;CS157A_Team11 (Inhee Park | Tracy Ho)
+&lt;span&gt;
+    &lt;a href=&#34;#cs157a_team11-inhee-park--tracy-ho&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+Main theme of this web app is to help users to get a convenient and healthy selection for the grocery list. Users can generate their grocery list by selecting a dish, which internally converts a dish to ingredient food items and/or by adding food items directly. User customized dietary restrictions and preferences are taken into consideration when generating a grocery list. 
+&lt;/blockquote&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/updated_ERD.png&#34; width=&#34;650&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/updated_schema.png&#34;  width=&#34;550&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/3tier.png&#34;  width=&#34;650&#34;&gt;
+&lt;h3 id=&#34;webapp-screenshots&#34; &gt;WebApp Screenshots
+&lt;span&gt;
+    &lt;a href=&#34;#webapp-screenshots&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/welcome.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/welcome2.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/food.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/result.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/dish.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/hamburger.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/hamburger2.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/check.png&#34;  width=&#34;700&#34;&gt;
+&lt;img src=&#34;https://gitlab.com/ipark/gnt-market/-/raw/master//img/final.png&#34;  width=&#34;700&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Harnessing the Malware Detection ML Models using Deep Reinforcement Learning</title>
+      <link>https://iparkirk.github.io/projects/malwareevasion/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/malwareevasion/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Final aim of this project is to harness malware detection machine learning (ML) models using deep reinforcement learning (DRL). There are two stages toward the final goal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Malware writer&amp;rsquo;s perspective to weaken malware detector :
+generating invasive malware data representing the adversarial space to evade the ML detection model&lt;/li&gt;
+&lt;li&gt;Malware defender&amp;rsquo;s perspective to harness malware detector :  using the generated adversarial data, retraining the malware detection ML model in several rounds in a iterative manner for more robust malware detection capability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Currently this project is at the first phase. The DRL framework let the agent to learn the value-function in end-to-end way (input → black-box → output):&lt;/p&gt;
+&lt;p&gt;Input of the DRL Environment is malware portable executable (PE) files.
+Outputs from the DRL Environment are
+the estimated reward (more reward to the successful evasion); and
+action-state policy (sequence of state-action mapping, where state is PE feature vectors; action is mutation on the PE files).&lt;/p&gt;
+&lt;p&gt;The objective function for the DRL Agent to learn is a value-function (i.e.
+accumulative, discounted reward values) that allows efficiently selecting an action that mutates the PE file to be misclassified as benign (but preserving malign functionality in disguise).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;motivationintroduction&#34; &gt;Motivation/Introduction
+&lt;span&gt;
+    &lt;a href=&#34;#motivationintroduction&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;h3 id=&#34;experiment&#34; &gt;Experiment
+&lt;span&gt;
+    &lt;a href=&#34;#experiment&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;h3 id=&#34;results&#34; &gt;Results
+&lt;span&gt;
+    &lt;a href=&#34;#results&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;h3 id=&#34;future-work&#34; &gt;Future Work
+&lt;span&gt;
+    &lt;a href=&#34;#future-work&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;img src=&#34;https://iparkirk.github.io/img/Evasion/mal8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lighter, Faster Semantic Segmentation by Post-Training Quantization and Quantization-Aware Training</title>
+      <link>https://iparkirk.github.io/projects/deeplab/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/deeplab/</guid>
+      <description>&lt;h3 id=&#34;image-segmentation-with-deeplab&#34; &gt;Image Segmentation With Deeplab
+&lt;span&gt;
+    &lt;a href=&#34;#image-segmentation-with-deeplab&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Image Segmentation using Deeplab v3+&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34; &gt;Summary
+&lt;span&gt;
+    &lt;a href=&#34;#summary&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Experimenting with Quantization of Tensorflow Models on various datasets with the DeepLab v3 Decoder architecture and MobileNet v2 Encoder architecture using a variety of techniques including 
+&lt;ul&gt;
+  &lt;li&gt;Quantization aware training &lt;/li&gt;
+  &lt;li&gt;Quantization aware training with delay &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs256-ai/blob/master/ImageSegmentationWithDeeplab/CS256_GroupE_PostQuantization.ipynb&#34;&gt;Post training Quantization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href=&#34;https://gitlab.com/ipark/cs256-ai/blob/master/ImageSegmentationWithDeeplab/CS256_GroupE_inference_deeplab.ipynb&#34;&gt;Quantized Inference/Evalulation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presentation-slide&#34; &gt;Presentation Slide
+&lt;span&gt;
+    &lt;a href=&#34;#presentation-slide&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&#34;https://gitlab.com/ipark/cs256-ai/blob/master/ImageSegmentationWithDeeplab/docs/CS256_GroupE_Final_Presentation.pdf&#34;&gt;
+     Lighter, Faster Semantic Segmentation by Post-Training Quantization and Quantization-Aware Training&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deeplab-deep-labelling-for-semantic-image-segmentation&#34; &gt;DeepLab: Deep Labelling for Semantic Image Segmentation
+&lt;span&gt;
+    &lt;a href=&#34;#deeplab-deep-labelling-for-semantic-image-segmentation&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;@inproceedings{deeplabv3plus2018,
+title={Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation},
+author={Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam},
+booktitle={ECCV},
+year={2018}
+}&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34; &gt;Installation
+&lt;span&gt;
+    &lt;a href=&#34;#installation&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;pip install all the following required packages.&lt;/p&gt;
+&lt;h3 id=&#34;requirement&#34; &gt;Requirement
+&lt;span&gt;
+    &lt;a href=&#34;#requirement&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;TensorFlow 1.15&lt;/li&gt;
+  &lt;li&gt;Jupyter Notebook&lt;/li&gt;
+  &lt;li&gt;Python 3.6&lt;/li&gt;
+  &lt;li&gt;Numpy&lt;/li&gt;
+  &lt;li&gt;Pillow&lt;/li&gt;
+  &lt;li&gt;matplotlib&lt;/li&gt;
+  &lt;li&gt;conda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: For a ready to use envirenment, a deeplearning ami on an EC2 instance would come with all the required packages needed to run this repo immediatly. &lt;/p&gt;
+&lt;h3 id=&#34;usage-on-colab&#34; &gt;Usage on Colab
+&lt;span&gt;
+    &lt;a href=&#34;#usage-on-colab&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+ &lt;li&gt;Fine-tuning and Quantization&lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/quantize.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Inference&lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/inference.png&#34; width=&#34;80%&#34;&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usage-on-aws&#34; &gt;Usage on AWS
+&lt;span&gt;
+    &lt;a href=&#34;#usage-on-aws&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;clone the repo&lt;/li&gt;
+  &lt;li&gt;navigate to ImageSegmentationWithDeeplab (command: cd ImageSegmentationWithDeeplab)&lt;/li&gt;  
+  &lt;li&gt;run the command &#34;jupyter notebook&#34;&lt;/li&gt;  
+  &lt;li&gt;use the provided url (default: localhost:8888)&lt;/li&gt;
+  &lt;li&gt;open the &#34;inference_deeplab.ipynb&#34; notebook&lt;/li&gt;
+  &lt;li&gt;From drop down list Cell &gt; Run All &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;results&#34; &gt;Results
+&lt;span&gt;
+    &lt;a href=&#34;#results&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;ul&gt;
+ &lt;li&gt;FLOAT32 Segmentation&lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/mobileNetv2-f32.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Post-Quantization UINT8 Segmentation (no fine-tuning) &lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/postQuant-8bit-noFT.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Post-Quantization UINT8  Segmentation (10K-iteration fine-tuning) &lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/postQuant-8bit-10kFT.png&#34; width=&#34;80%&#34;&gt;
+ &lt;li&gt;Quantization-Aware-Training UNIT8 Segmentation &lt;/li&gt;
+ &lt;img src=&#34;https://raw.github.com/SherifSabri/ImageSegmentationWithDeeplab/master/QAT-8bit.png&#34; width=&#34;80%&#34;&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;about&#34; &gt;About:
+&lt;span&gt;
+    &lt;a href=&#34;#about&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;This page (code, report and presentation) is the group &#34;E&#34; submission for Final project for CS256: Selected Topics in Artificial Intelligence, Section 2. Leb by Instructor: Mashhour Solh, Ph.D.
+&lt;/br&gt;
+The group members are:
+&lt;ul&gt;
+  &lt;li&gt;Sherif Elsaid&lt;/li&gt;
+  &lt;li&gt;Inhee Park&lt;/li&gt;
+  &lt;li&gt;Sagar Shahi&lt;/li&gt;
+  &lt;li&gt;Sriram Priyatham Siram&lt;/li&gt;
+  &lt;li&gt;Anand Vishwakarma&lt;/li&gt;
+&lt;/ul&gt;
+The code maybe used for educational and commercial use under no warranties. 
+&lt;/br&gt;For questions on this project and code please reach out to: 
+&lt;/br&gt;&#34;contact@sherifsabri.dev&#34;
+&lt;h3 id=&#34;credits&#34; &gt;Credits
+&lt;span&gt;
+    &lt;a href=&#34;#credits&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;This project was conducted with free credits provided by AWS educate team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feature Engineering and Predictive Modeling</title>
+      <link>https://iparkirk.github.io/research/protml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/research/protml/</guid>
+      <description>&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML15.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML16.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML17.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML18.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML19.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML20.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML22.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML23.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML24.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML25.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML26.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML27.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/ProtML/ipark-ProML28.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Integrated Bioinformatics Tool De Novo Tags Assembly for Antibody Sequence Reconstruction</title>
+      <link>https://iparkirk.github.io/research/gnfseq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/research/gnfseq/</guid>
+      <description>&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problem&lt;/strong&gt;.	Given current infrastructure at GNF, in-house service development was beneficial over outsourcing in terms of fast turn-around time and intellectual property protection.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action&lt;/strong&gt;.	Developed a high-confidence antibody V-region reconstruction method utilized public genomics database of antibodies, classified most probable template sequence, reconstructed full information from fragmented data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt;.	Provided accurate full de novo sequence for antibody biotherapeutics. Now fully functional in-house service at no risk of confidential information disclosure by leveraging combined information protocol (genomics/proteomics/informatics).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computing&lt;/strong&gt;.Python, R (ggplot2), Database Retrieval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conference Talk&lt;/strong&gt;. Park, I.-H. &amp;amp; Brock, A. &amp;ldquo;Genomics/Proteomics/Informatics Complementary Approach to High Confident Reconstruction of Antibody Vregion Sequence&amp;rdquo; ACS West Coast Analytical Chemistry Symposium, Apr 2015&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;presentation&#34;&gt;Presentation&lt;/h3&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_001.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_002.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_003.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_004.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_005.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_006.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_007.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_008.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_009.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_010.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_011.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_012.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_013.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_014.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_015.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_016.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_017.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_018.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_019.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_020.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_021.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_022.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_023.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_024.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_025.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFAb/ipark_ACS_2015_026.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pharmacokinetics Modeling for Antibody and More Advanced Targeted Therapy</title>
+      <link>https://iparkirk.github.io/research/gnfpk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/research/gnfpk/</guid>
+      <description>&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Action&lt;/strong&gt;.	Assessment of feasibility of biotherapeutics group&amp;rsquo;s hypothesis whether Meditope platform is efficient for antibody recycling compared to ADC platform by building a minimal Pharmacokinetics (PK) model by integrating literature data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt;.	Provided hypothesis assessment result by quantiative modeling, which turned out compatible proof-of-concept to later Meditope experiment result.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computing&lt;/strong&gt;. Python (NumPy/SciPy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;presentation&#34;&gt;Presentation&lt;/h3&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_001.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_002.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_003.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_004.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_005.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_006.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_007.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_008.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_009.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_010.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_011.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_012.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_013.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_014.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_015.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_016.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_017.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_018.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_019.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_020.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_021.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_022.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_023.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_024.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_025.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_026.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_027.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_028.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_029.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantitative Structure Prediction Model for Mass Spectrometry of Biologics</title>
+      <link>https://iparkirk.github.io/research/gnfms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/research/gnfms/</guid>
+      <description>&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problem&lt;/strong&gt;.	Bioanalytics group constantly generated big data for biologics; looking for computational model prediction prior to resource-consuming/labor-intensive mass spectrometry experiment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action&lt;/strong&gt;.	Initially fully implemented Monte Carlo based COREX algorithm from scratch by referring to scatterd publications &amp;amp; patent documents. Based on the insight gained from the implemented algorithm, developed totally alternative method by accelerating computation time (GPU-enabled MD) and incorporated statistical analysis: dynamic metric idenficiation, growth logistic model construction, simulation-based ensemble data generation, statistical analysis of metric enabling prediction of dynamics at various experimental conditions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt;.	Turned out to be simple, generic, and robust prediction model with successful benchmark against wide range of biologics systems; aided experimental data interpretation; extended applications to other areas such as stability prediction per mutation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computing&lt;/strong&gt;.	Python, R, SQLite, GPU-enabled MD suite compile/simulation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication&lt;/strong&gt;.	&lt;a href=&#34;https://pubs.acs.org/doi/10.1021/acs.jcim.5b00185&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Park, I.-H. et al.
+Estimation of Hydrogen Exchange Protection Factors from MD Simulation Based on Amide Hydrogen Bonding Analysis.
+J Chem Inf Model. 55(9):1914-25. 2015&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;high-level-summary&#34;&gt;High-level Summary&lt;/h3&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/summary1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/summary2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/summary3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/summary4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/summary5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;h3 id=&#34;paper-summary&#34;&gt;Paper Summary&lt;/h3&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS15.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS16.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS19.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS20.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS21.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS22.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS23.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFMS/MS24.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantic Textual Similarity Using Transfer Learning and Embeddings</title>
+      <link>https://iparkirk.github.io/projects/sts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/sts/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;Semantic Textual Similarity (STS) is a one of Natural Language Processing
+tasks to measure closeness of contextual meaning of given words, sentences or paragraphs as the way of human understands language using a computer model. Owing to the state-of-art, general-purpose, deep learning based NLP model such as BERT, we can build a STS model utilizing Transfer Learning without training a model from scratch.  The core theme of this project is to understand word or sentence embeddings, which are features of textual data in numerical representative vectors. We use various embeddings as features to measure semantic metric such as cosine similarity and angular distance similarity. Finally, we build a semantic search engine trained on the Quora Question Set using the best embeddings together with faster and efficient `Approximate k-Nearest Neighbors&#39; (AkNN) in lieu of brute-force cosine similarity metric.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;codes-colab-notebookhttpsgitlabcomiparkcs274-wiblobmasterwiprojectcodecs274-semantictexualsimilarityipynb&#34;&gt;Codes: &lt;a href=&#34;https://gitlab.com/ipark/cs274-wi/blob/master/WIproject/Code/CS274-SemanticTexualSimilarity.ipynb&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;report-reporthttpsgitlabcomiparkcs274-wiblobmasterwiprojectieeecs274-finalreport-inheeparkpdf&#34;&gt;Report: &lt;a href=&#34;https://gitlab.com/ipark/cs274-wi/blob/master/WIproject/IEEE/CS274-FinalReport-InheePark.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Report&lt;/a&gt;&lt;/h4&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/STS/STS-20.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis Using Machine Learning and Deep Learning</title>
+      <link>https://iparkirk.github.io/projects/sa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/sa/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Sentiment Analysis&amp;rdquo; (positive, negative polarity classification on the social
+media or customer reviews) is chosen as a major topic in the project, because&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it is a text-based classification task in Natural Language Processing (NLP);&lt;/li&gt;
+&lt;li&gt;it can be analysed by classifiers in Machine Learning such as Support Vector Machine (linear classifier) and Naive Bayesian Model (probabilistic classifier);&lt;/li&gt;
+&lt;li&gt;moreover, it can be explored by pre-trained state-of-art NLP model (BERT) from Transfer Learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our Sentiment Analysis results show that primitive TF-IDF with Naive Bayes (80%) outperforms the start-of-art BERT (75%). Perhaps depending on the specific NLP task, not always contextualized embedding is required to capture the simple polarity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;codes-colab-notebookhttpsgitlabcomiparkcs271-mlblobmastermlprojectcodecs271_sentimentanalysis_inheeparkipynb&#34;&gt;Codes: &lt;a href=&#34;https://gitlab.com/ipark/cs271-ml/blob/master/MLproject/Code/CS271_SentimentAnalysis_InheePark.ipynb&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;report-reporthttpsgitlabcomiparkcs271-mlblobmastermlprojectieeecs271-project-parkpdf&#34;&gt;Report: &lt;a href=&#34;https://gitlab.com/ipark/cs271-ml/blob/master/MLproject/IEEE/CS271-Project-PARK.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Report&lt;/a&gt;&lt;/h4&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA6.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/SA/SA14.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Blowfish Block Cipher System</title>
+      <link>https://iparkirk.github.io/projects/blowfish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/blowfish/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;The Blowfish is one of block cipher systems. It was developed as a better substitute for the Triple-DES system.
+Blowfish has following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a. an input key length is a variable from minimum 32-bit up to maximum 448-bit;&lt;/li&gt;
+&lt;li&gt;large subkey tables to make a brute-force attack harder by using hexadecimal string of π value to initialize the 32-bit subkey set (P-array[18] and Sboxes[4][256]); and&lt;/li&gt;
+&lt;li&gt;one block encryption algorithm is used using fixed-sized all-zero strings in the subkey generation phase to make key-dependent subkeys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, the Blowfish has many common features with other block ciphers as following, thus I could reuse many methods/classes from the cryptoUtil.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;large S-boxes data structure for lookup;&lt;/li&gt;
+&lt;li&gt;combined operations, .e.g. XOR mod 2^32; and&lt;/li&gt;
+&lt;li&gt;multiple rounds of Feistel iteration by swapping left and right half of a block&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

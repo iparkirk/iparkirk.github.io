@@ -1,0 +1,168 @@
+---
+date: 2022-07-08
+---
+### WORK HISTORY
+
+Computational Protein / Machine Learning Engineer, [Aether Biomachines](https://www.aetherbio.com/), Menlo Park, CA [2021-Current]
+
+* Data Science — Analyzed convoluted experimental data using Pandas grouping/merging/indexing to disclose problems in disguise; Visualized multifaceted features to share insight with cross-functional teams (R&D, automation) for planning
+* Machine Learning — Built enzyme recommender systems (MolSim, RxnSim, and AtomRxn); Implemented active learning (uncertainty-based sampling, annotating unlabeled data strategy); Explored/collected sequence/structure-based features (feature engineering) with clustering; Developed activity prediction models (classification/regression) using transformer/autoencoder-based embeddings/featurizers  
+* Tool Development for Enzyme Engineering — Generated combinatorial substrate analogues; Developed automatic catalytic site identification tool for AlphaFold2 structures
+* Simulation/Optimization — Optimized substrate:enzyme docking structure using openMM/AmberTools (internal optimizer of AlphaFold2); Deployed end-to-end simulation tool
+
+
+Postdoctoral Fellow (Computational Proteomics), [Novartis Institutes for BioMedical Research](https://www.novartis.com/research-development/novartis-institutes-biomedical-research),
+San Diego, CA [2012-2015]
+
+
+* Structural Change Prediction Modeling — Developed Quantitative Prediction Model for Mass Spec of Biologics to
+Validate/Interpret Big Data Prediction of Time-, Temperature- and pH-dependent Protein Structural Changes
+* Multi-Omics Tool Development — Developed and deployed the integrated bioinformatics tool for internal
+service for reconstructing antibody sequence by leveraging combined information protocol
+(genomics/proteomics/informatics) and Dynamic Programming.
+
+
+Postdoctoral Fellow (Computational Biophysics), [Beckman Research Institute at City of Hope](https://www.cityofhope.org/research/beckman-research-institute),
+Duarte, CA [2010-2012]
+
+
+* Optimized the high-dimensional biological sampling space by refinement protocol, which was enhanced by reusing the robotics locomotion algorithm used in NASA/JPL.
+
+
+
+
+---
+
+
+### EDUCATION
+
+MS. Computer Science (3.95/4.0), San Jose State University, CA, 2020
+
+
+* Relevant CS Coursework — Design/Analysis of Algorithms, Deep Learning for Computer Vision, Machine Learning in Security, and Mining of Massive Dataset)
+* AI Thesis — Multi-Agent Deep Reinforcement Learning (DRL) for Walker Systems
+
+
+PhD. Chemical Physics (Computational Drug Design), The Ohio State University, OH, USA, 2010
+
+
+* Dissertation — Computational Simulations of Protein-Ligand Molecular Recognition via Enhanced
+Samplings, Free Energy Calculations and Applications to Structure-Based Drug Design
+
+
+BS. Chemistry and Physics, SookMyung Women's University, Seoul, Korea
+
+
+---
+
+
+### COMPUTER SKILLS
+
+* Programming Languages — [Advanced] Python / Jupyter / Pandas, R, Bash and LaTeX
+[Skilled] Java, C and Verilog with ModelSim
+* Machine Learning/Deep Reinforcement Learning — Scikit-learn, PyTorch, Ray RLlib
+(both single-agent and multi-agent), OpenAI Gym
+* Computational Chemistry/Simulation/Modeling Tools — RDkit, OpenMM, Amber, Schrodinger, ChimeraX
+* Computing Environment — Linux (Ubuntu), HPC (MPI), GPU Computing, AWS (Cloud), Anaconda (Virtual Env),
+and Docker
+* Full Stack Web — [Front] HTML, CSS, Bootstrap, Javascript/jQuery, Ajax [Server] JSP/Tomcat; [Back] MySQL
+
+---
+
+### SELECTED PUBLICATIONS
+
+* S. Kyriacou, G. Meshulam-Simon, L. Clark, C. Chia and Inhee Park,
+“Enzyme engineering by means of reaction space indexing coupled with machine learning algorithms”,
+[Society for Industrial Microbiology and Biotechnology (SIMB), Aug 2022, San Francisco](https://www.simbhq.org/annual/) <br>
+<sup>#enzyme engineering, #graph neural network (gnn), #machine learning, #automation
+</sup>
+
+* Inhee Park and Teng-Sheng Moh,
+“Multi-Agent Deep Reinforcement Learning for Walker Systems”,
+[2021 20th IEEE International Conference on Machine Learning and Applications (ICMLA),
+2021, pp. 490-495, doi: 10.1109/ICMLA52953.2021.00082.](https://ieeexplore.ieee.org/document/9680106)  <br>
+<sup>#deep reinforcement learning (drl), #ai, #multi-agent
+</sup>
+
+* Inhee Park, J. Venable, C. Steckler, S. Cellitti, S.A. Lesley, G. Spraggon and A. Brock,
+“Estimation of Hydrogen Exchange Protection Factors from MD Simulation Based on Amide Hydrogen Bonding Analysis”.
+[J Chem Inf Model. 55(9):1914-25. 2015](https://pubs.acs.org/doi/10.1021/acs.jcim.5b00185)  <br>
+<sup>#monte carlo, #mass spectrometry, #proteomics, #molecular simulation, #computational structural biology
+</sup>
+
+* Inhee Park and A. Brock,
+“Genomics/Proteomics/Informatics Complementary Approach to High Confident Reconstruction of Antibody V-region Sequence”
+[ACS West Coast Analytical Chemistry Symposium, Apr 2015, San Diego](https://sandiegoacs.org/wp-content/uploads/2022/04/april-2015.pdf)  <br>
+<sup>
+#bioinformatics, #genomics, #proteomics, #mass spectrometry, #dynamic programming
+</sup>
+
+* S. Bhowmik, D. H. Jones, H.-P. Chiu, Inhee Park et al.
+“Structural and Functional Characterization of BaiA, An Enzyme Involved in Secondary Bile Acid Synthesis in Human Gut Microbe”.
+[Proteins. 82(2):216- 29. 2014](https://www.ncbi.nlm.nih.gov/pubmed/23836456)  <br>
+<sup>
+#quantum chemistry, #catalytic activity
+</sup>
+
+* Inhee Park, V. Gangupomu, J. Wagner, A. Jain and N. Vaidehi,
+“Structure Refinement of Protein Low Resolution Models Using the GNEIMO Constrained Dynamics Method”.
+[J Phys Chem B. 116(8):2365-75. 2012](https://www.ncbi.nlm.nih.gov/pubmed/22260550)  <br>
+<sup>
+#homology modeling, #sampling, #molecular simulation, #free energy, #computational structural biology
+</sup>
+
+* A. Jain, Inhee Park and N. Vaidehi, “Equipartition Principle for Internal Coordinate Molecular Dynamics”.
+[J Chem Theory Comput. 8(8):2581-2587. 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3549275/)  <br>
+<sup>
+#free energy
+</sup>
+
+* V. Gangupomu, J. Wagner, Inhee Park et al.
+“Mapping Conformational Dynamics of Proteins using Torsional Dynamics Simulations”
+[Biophys J. 104(9):1999-2008. 2013](https://www.ncbi.nlm.nih.gov/pubmed/23663843)  <br>
+<sup>
+#molecular simulation, #free energy, #computational structural biology
+</sup>
+
+* G.S. Balaraman, Inhee Park et al.
+“Folding of Small Proteins Using Constrained Molecular Dynamics”
+[J Phys Chem B. 115(23):7588-96. 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3124276/)  <br>
+<sup>
+#protein folding, #molecular simulation, #free energy, #computational structural biology
+</sup>
+
+* W. Harvey, Inhee Park, O. Rubel, V. Pascucci, P.T. Bremer, C. Li and Y. Wang,
+“A Collaborative Visual Analytics Suite for Protein Folding Research”
+[J Mol Graph Model. 53:59-71.2014](https://www.ncbi.nlm.nih.gov/pubmed/25068440)  <br>
+<sup>
+#graph, #folding, #molecular simulation, #free energy, #computational structural biology
+</sup>
+
+* Inhee Park and C. Li,
+“Dynamic ligand-induced-fit simulation via enhanced conformational samplings and ensemble dockings: a survivin example”
+[J Phys Chem B. 114(15):5144-53. 2010](https://www.ncbi.nlm.nih.gov/m/pubmed/20337446)  <br>
+<sup>
+#induced-fit-docking, #molecular simulation, #free energy, #enhanced sampling
+</sup>
+
+* Inhee Park and C. Li,
+“Characterization of molecular recognition of STAT3 SH2 domain inhibitors through molecular simulation”
+[J Mol Recognition. 24(2):254-65. 2010](https://www.ncbi.nlm.nih.gov/pubmed/21360612)  <br>
+<sup>
+#docking, #molecular simulation, #quantum chemistry, #free energy, #cheminformatics
+</sup>
+
+* S. Chattier, J. V. Cooley, Inhee Park et al.
+“Design, Synthesis and Biological Studies of Survivin Dimerization Modulators that Prolong Mitotic Cycle”
+[Bioorg Med Chem Lett. 23(19):5429-33. 2013](https://www.ncbi.nlm.nih.gov/pubmed/23968825)  <br>
+<sup>
+#in silico design, #docking, #molecular simulation, #cheminformatics, #free energy
+</sup>
+
+* Co-authored with 16 authors,
+“Impairment of Glioma Stem Cell Survival and Growth by a Novel Inhibitor for Survivin–Ran Protein Complex”
+[Clin Cancer Res. 19(3):631-42. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4295559/)  <br>
+<sup>
+#in silico design, #drug repurposing, #translation of breast cancer lead to brain cancer
+</sup>
+

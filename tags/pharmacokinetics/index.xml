@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pharmacokinetics on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/pharmacokinetics/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (Pharmacokinetics)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    <atom:link href="https://iparkirk.github.io/tags/pharmacokinetics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pharmacokinetics Modeling for Antibody and More Advanced Targeted Therapy</title>
+      <link>https://iparkirk.github.io/research/gnfpk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/research/gnfpk/</guid>
+      <description>&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Action&lt;/strong&gt;.	Assessment of feasibility of biotherapeutics group&amp;rsquo;s hypothesis whether Meditope platform is efficient for antibody recycling compared to ADC platform by building a minimal Pharmacokinetics (PK) model by integrating literature data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt;.	Provided hypothesis assessment result by quantiative modeling, which turned out compatible proof-of-concept to later Meditope experiment result.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computing&lt;/strong&gt;. Python (NumPy/SciPy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;presentation&#34;&gt;Presentation&lt;/h3&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_001.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_002.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_003.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_004.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_005.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_006.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_007.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_008.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_009.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_010.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_011.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_012.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_013.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_014.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_015.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_016.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_017.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_018.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_019.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_020.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_021.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_022.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_023.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_024.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_025.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_026.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_027.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_028.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/GNFpk/ipark_PKmodel_Aug2015_029.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

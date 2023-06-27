@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cryptograph on Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+    <link>https://iparkirk.github.io/tags/cryptograph/</link>
+    <description>Inhee Park, PhD (Computational Protein / Machine Learning Engineer) (cryptograph)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    <atom:link href="https://iparkirk.github.io/tags/cryptograph/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Blowfish Block Cipher System</title>
+      <link>https://iparkirk.github.io/projects/blowfish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/projects/blowfish/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34; &gt;Abstract:
+&lt;span&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;The Blowfish is one of block cipher systems. It was developed as a better substitute for the Triple-DES system.
+Blowfish has following features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a. an input key length is a variable from minimum 32-bit up to maximum 448-bit;&lt;/li&gt;
+&lt;li&gt;large subkey tables to make a brute-force attack harder by using hexadecimal string of π value to initialize the 32-bit subkey set (P-array[18] and Sboxes[4][256]); and&lt;/li&gt;
+&lt;li&gt;one block encryption algorithm is used using fixed-sized all-zero strings in the subkey generation phase to make key-dependent subkeys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, the Blowfish has many common features with other block ciphers as following, thus I could reuse many methods/classes from the cryptoUtil.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;large S-boxes data structure for lookup;&lt;/li&gt;
+&lt;li&gt;combined operations, .e.g. XOR mod 2^32; and&lt;/li&gt;
+&lt;li&gt;multiple rounds of Feistel iteration by swapping left and right half of a block&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-1.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-2.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-3.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-4.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-5.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-7.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-9.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-8.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-10.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf11.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-12.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/Blowfish/bf-13.png&#34; width=&#34;570&#34; style=&#34;border:1px solid black;&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
