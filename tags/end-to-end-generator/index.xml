@@ -10,7 +10,7 @@
     
     
     <item>
-      <title>RxnGPT2: Rxn-prompted Sequence Generator</title>
+      <title>RxnGPT2: Reaction-prompted Sequence Generator</title>
       <link>https://iparkirk.github.io/research/llm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -44,7 +44,7 @@ but also undergoes off-target problems.&lt;/p&gt;
         &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
     &lt;/a&gt;
 &lt;/span&gt;
-&lt;/h2&gt;&lt;p&gt;To accelerate a speed, more importantly, to ensure tight coupling between
+&lt;/h2&gt;&lt;p&gt;To accelerate a two-stage search, more importantly, to ensure tight coupling between
 substrate and enzyme scoping, we build a reaction-prompted, enzyme
 sequence generator large language model, RxnGPT2, via three steps: (1)
 generalizing reaction space; (2) constructing substrate-enzyme knowledge
