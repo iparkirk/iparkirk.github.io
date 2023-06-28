@@ -93,9 +93,10 @@ usage is summarized in Fig 3.&lt;/p&gt;
 &lt;p&gt;Fig 4 demonstrates a showcase of the RxnGPT2: reaction-prompted,
 generated sequences in tabular form with extra information especially a
 low perplexity (metric of quality of generated sequences).&lt;/p&gt;
-&lt;p&gt;Fig 5 demonstrates a truly end-to-end application of the RxnGP2. Users just enter
-a reaction of interest to the generator at any granularity either in SMILES or
-SMARTS, and the RxnGPT2 returns an elucidated catalytic site view on the
+&lt;p&gt;A truly end-to-end application with the RxnGPT2 is exhibited in Fig 5.
+Users just enter a reaction of interest to the generator at any granularity
+either in SMILES or SMARTS, and the RxnGPT2 returns
+an elucidated catalytic site view on the
 folded structure from the generated sequence.&lt;/p&gt;
 &lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm3.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
 &lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm4.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
