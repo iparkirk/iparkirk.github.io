@@ -105,7 +105,7 @@ structure (such as SMILES strings) or fingerprint pattern-based search.&lt;/p&gt
 &lt;/span&gt;
 &lt;/h3&gt;&lt;p&gt;With the generalized reaction data, we then associate a reaction to
 corresponding enzyme sequence by utilizing multiple databases such as
-Rhea and UnitPro (comprehensive database and tools listed in Fig 2).&lt;/p&gt;
+Rhea and UniProt (comprehensive database and tools listed in Fig 2).&lt;/p&gt;
 &lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm2.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
 &lt;h3 id=&#34;3-end-to-end-approach-from-a-reaction-of-interest-all-the-way-to-catalytic-site-elucidation&#34; &gt;(3) End-to-end approach from a reaction of interest all the way to catalytic site elucidation.
 &lt;span&gt;
