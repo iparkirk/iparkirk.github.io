@@ -58,7 +58,7 @@ all the way to catalytic site elucidation.&lt;/p&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;p&gt;Reaction similarity is different from chemical structure similarity. Semantic
 similarity in reaction space can be attained by utilizing atomic mapping
-from reactant side and product side [1]. Subsequently we identify the
+from reactant side onto product side [1]. Subsequently we identify the
 atoms undergoing a change within a various radius [2]. Consequently, we
 can search similar reactions semantically, instead of traditional chemical
 structure (such as SMILES strings) or fingerprint pattern-based search.&lt;/p&gt;
