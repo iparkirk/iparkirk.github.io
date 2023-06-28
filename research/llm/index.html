@@ -282,10 +282,9 @@ Rhea and UnitPro (comprehensive database and tools listed in Fig 2).</p>
 </span>
 </h3><p>With the coupled data as our train set, we build a RxnGPT2 model by
 training from scratch with a base architecture of GPT2-124M . Our input
-data consists of</p>
-<pre tabindex="0"><code>{prompt}&lt;sep&gt;{response}
-</code></pre><p>where {prompt} is a
-generalized catalytic reaction at various granularities, and {response} is an
+data consists of <code>{prompt}&lt;sep&gt;{response}</code>,
+where <code>{prompt}</code> is a
+generalized catalytic reaction at various granularities, and <code>{response}</code> is an
 enzyme sequence. We used Byte-Pair-Encoding (BPE) for both chemical
 reaction strings and amino acid sequence strings. This is different from 20
 amino acid based tokenization used in other protein language models.
@@ -302,10 +301,10 @@ SMARTS, and the RxnGPT2 returns an elucidated catalytic site view on the
 folded structure from the generated sequence.</p>
 <img src="/img/LLM/llm3.png" width="570" style="border:0px solid black;">
 <img src="/img/LLM/llm4.png" width="570" style="border:0px solid black;">
-<p>In conclusion, the RxnGPT2 expedites a traditional two-stage substrates
-and enzyme scopes in tightly coupled, End-to-End, one-stop approach
-without extensive prior knowledge on the catalytic site structural
-information. It is a promising generator for enzyme discovery.</p>
+<p>In conclusion, the RxnGPT2 bypasses a traditional two-stage substrates and enzyme scopes,
+directly pushes forward with tightly coupled, End-to-End, one-stop approach without extensive
+prior knowledge on the catalytic site structural information. It is a promising generative AI for
+enzyme discovery.</p>
 <h2 id="references" >References
 <span>
     <a href="#references">

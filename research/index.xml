@@ -253,10 +253,9 @@ Rhea and UnitPro (comprehensive database and tools listed in Fig 2).&lt;/p&gt;
 &lt;/span&gt;
 &lt;/h3&gt;&lt;p&gt;With the coupled data as our train set, we build a RxnGPT2 model by
 training from scratch with a base architecture of GPT2-124M . Our input
-data consists of&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{prompt}&amp;lt;sep&amp;gt;{response}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;where {prompt} is a
-generalized catalytic reaction at various granularities, and {response} is an
+data consists of &lt;code&gt;{prompt}&amp;lt;sep&amp;gt;{response}&lt;/code&gt;,
+where &lt;code&gt;{prompt}&lt;/code&gt; is a
+generalized catalytic reaction at various granularities, and &lt;code&gt;{response}&lt;/code&gt; is an
 enzyme sequence. We used Byte-Pair-Encoding (BPE) for both chemical
 reaction strings and amino acid sequence strings. This is different from 20
 amino acid based tokenization used in other protein language models.
@@ -273,10 +272,10 @@ SMARTS, and the RxnGPT2 returns an elucidated catalytic site view on the
 folded structure from the generated sequence.&lt;/p&gt;
 &lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm3.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
 &lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm4.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
-&lt;p&gt;In conclusion, the RxnGPT2 expedites a traditional two-stage substrates
-and enzyme scopes in tightly coupled, End-to-End, one-stop approach
-without extensive prior knowledge on the catalytic site structural
-information. It is a promising generator for enzyme discovery.&lt;/p&gt;
+&lt;p&gt;In conclusion, the RxnGPT2 bypasses a traditional two-stage substrates and enzyme scopes,
+directly pushes forward with tightly coupled, End-to-End, one-stop approach without extensive
+prior knowledge on the catalytic site structural information. It is a promising generative AI for
+enzyme discovery.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34; &gt;References
 &lt;span&gt;
     &lt;a href=&#34;#references&#34;&gt;
