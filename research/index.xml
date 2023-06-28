@@ -272,7 +272,7 @@ SMARTS, and the RxnGPT2 returns an elucidated catalytic site view on the
 folded structure from the generated sequence.&lt;/p&gt;
 &lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm3.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
 &lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm4.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
-&lt;p&gt;In conclusion, the RxnGPT2 bypasses a traditional two-stage substrates and enzyme scopes,
+&lt;p&gt;In conclusion, the RxnGPT2 bypasses traditional two-stage substrates and enzyme scopes,
 directly pushes forward with tightly coupled, End-to-End, one-stop approach without extensive
 prior knowledge on the catalytic site structural information. It is a promising generative AI for
 enzyme discovery.&lt;/p&gt;
