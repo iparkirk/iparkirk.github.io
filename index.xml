@@ -835,6 +835,122 @@ J Chem Inf Model. 55(9):1914-25. 2015&lt;/a&gt;&lt;/li&gt;
     </item>
     
     <item>
+      <title>RxnGPT2: Rxn-prompted Sequence Generator</title>
+      <link>https://iparkirk.github.io/research/llm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iparkirk.github.io/research/llm/</guid>
+      <description>&lt;h2 id=&#34;background&#34; &gt;Background
+&lt;span&gt;
+    &lt;a href=&#34;#background&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;The goal of enzyme engineering in catalytic reaction space is searching for
+the most potent enzyme variant that efficiently catalyzes a reaction of
+interest. A folded enzyme sequence accommodates a substrate (chemical
+compound) binding to a catalytic site and converts it to a product (a
+beneficial form of chemical compound via natural mechanism as an
+alternative to chemical synthesis).
+To initiate an engineering scope to search for engineered enzyme variants
+shown in Fig 1D, we should first find a hit pair of indexed (wild-type)
+enzymes and substrates from the high-throughput screening (HTS) shown
+in Fig 1C.&lt;/p&gt;
+&lt;p&gt;To initiate an engineering scope to search for engineered enzyme variants
+shown in Fig 1D, we should first find a hit pair of indexed (wild-type)
+enzymes and substrates from the high-throughput screening (HTS) shown
+in Fig 1C.
+A traditional approach to setting up an HTS is a separate, two-stage
+search: (1) expansive substrate (chemistry) scope and (2) shrinking
+enzyme (biology) scope, as depicted in Fig 1A-B. A plate of HTS is filled
+up with the resulting substrates and enzymes candidate set. Due to
+uncoupled searches, however, this traditional approach not only takes time
+but also undergoes off-target problems.&lt;/p&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm1.png&#34; width=&#34;400&#34; style=&#34;border:0px solid black;&#34;&gt;
+&lt;h2 id=&#34;rxngpt2&#34; &gt;RxnGPT2
+&lt;span&gt;
+    &lt;a href=&#34;#rxngpt2&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;To accelerate a speed, more importantly, to ensure tight coupling between
+substrate and enzyme scoping, we build a reaction-prompted, enzyme
+sequence generator large language model, RxnGPT2, via three steps: (1)
+generalizing reaction space; (2) constructing substrate-enzyme knowledge
+association data; and (3) end-to-end approach from a reaction of interest
+all the way to catalytic site elucidation.&lt;/p&gt;
+&lt;h3 id=&#34;1-generalizing-reaction-space&#34; &gt;(1) Generalizing reaction space
+&lt;span&gt;
+    &lt;a href=&#34;#1-generalizing-reaction-space&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;Reaction similarity is different from chemical structure similarity. Semantic
+similarity in reaction space can be attained by utilizing atomic mapping
+from reactant side and product side [1]. Subsequently we identify the
+atoms undergoing a change within a various radius [2]. Consequently, we
+can search similar reactions semantically, instead of traditional chemical
+structure (such as SMILES strings) or fingerprint pattern-based search.&lt;/p&gt;
+&lt;h3 id=&#34;2-constructing-substrate-enzyme-knowledge-association-data&#34; &gt;(2) Constructing substrate-enzyme knowledge association data
+&lt;span&gt;
+    &lt;a href=&#34;#2-constructing-substrate-enzyme-knowledge-association-data&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;With the generalized reaction data, we then associate a reaction to
+corresponding enzyme sequence by utilizing multiple databases such as
+Rhea and UnitPro (comprehensive database and tools listed in Fig 2).&lt;/p&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm2.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
+&lt;h3 id=&#34;3-end-to-end-approach-from-a-reaction-of-interest-all-the-way-to-catalytic-site-elucidation&#34; &gt;(3) End-to-end approach from a reaction of interest all the way to catalytic site elucidation.
+&lt;span&gt;
+    &lt;a href=&#34;#3-end-to-end-approach-from-a-reaction-of-interest-all-the-way-to-catalytic-site-elucidation&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;&lt;p&gt;With the coupled data as our train set, we build a RxnGPT2 model by
+training from scratch with a base architecture of GPT2-124M . Our input
+data consists of&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{prompt}&amp;lt;sep&amp;gt;{response}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;where {prompt} is a
+generalized catalytic reaction at various granularities, and {response} is an
+enzyme sequence. We used Byte-Pair-Encoding (BPE) for both chemical
+reaction strings and amino acid sequence strings. This is different from 20
+amino acid based tokenization used in other protein language models.
+Moreover, to our knowledge, there is no such generative model yet
+tokenizing both chemical language and protein language simultaneously.
+Detailed training specification in terms of trainset, tokenization, and GPU
+usage is summarized in Fig 3.&lt;/p&gt;
+&lt;p&gt;Fig 4 demonstrates a showcase of the RxnGPT2: reaction-prompted,
+generated sequences in tabular form with extra information especially a
+low perplexity (metric of quality of generated sequences). Fig 5
+demonstrate a truly end-to-end application of the RxnGP2. Users just enter
+a reaction of interest to the generator at any granularity either in SMILES or
+SMARTS, and the RxnGPT2 returns an elucidated catalytic site view on the
+folded structure from the generated sequence.&lt;/p&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm3.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
+&lt;img src=&#34;https://iparkirk.github.io/img/LLM/llm4.png&#34; width=&#34;570&#34; style=&#34;border:0px solid black;&#34;&gt;
+&lt;p&gt;In conclusion, the RxnGPT2 expedite a traditional two-stage substrates
+and enzyme scopes in tightly coupled, End-to-End, one-stop approach
+without extensive prior knowledge on the catalytic site structural
+information. It is a promising generator for enzyme discovery.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34; &gt;References
+&lt;span&gt;
+    &lt;a href=&#34;#references&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;[1] Schwaller P, Hoover B, Reymond JL, Strobelt H, Laino T. Extraction of
+organic chemistry grammar from unsupervised learning of chemical
+reactions. Sci Adv. 2021 Apr 7;7(15):eabe4166. doi:
+10.1126/sciadv.abe4166. PMID: 33827815; PMCID: PMC8026122.&lt;/p&gt;
+&lt;p&gt;[2] Kannas C, Thakkar A, Bjerrum E, Genheden S. rxnutils – A
+Cheminformatics Python Library for Manipulating Chemical Reaction Data.
+ChemRxiv. Cambridge: Cambridge Open Engage; 2022; This content is a
+preprint and has not been peer-reviewed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Semantic Textual Similarity Using Transfer Learning and Embeddings</title>
       <link>https://iparkirk.github.io/projects/sts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

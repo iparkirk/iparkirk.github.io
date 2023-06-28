@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+
+<html lang="" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>RxnGPT2: Rxn-prompted Sequence Generator - Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</title>
+
+<meta name="description" content="Background The goal of enzyme engineering in catalytic reaction space is searching for the most potent enzyme variant that efficiently catalyzes a reaction of interest.">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://iparkirk.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://iparkirk.github.io/favicon.png">
+
+
+<style>
+  body {
+    visibility: hidden;
+    opacity: 0;
+  }
+</style>
+
+<noscript>
+  <style>
+    body {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</noscript>
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="https://iparkirk.github.io/css/style.min.c6a5c56d82abc1aa3a1925bf0b67884906e878e4e5bfb5af069b0a3e35e32569.css" integrity="sha256-xqXFbYKrwao6GSW/C2eISQboeOTlv7WvBpsKPjXjJWk=">
+    
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <script src="https://iparkirk.github.io/js/script.min.766e48fac645ce89febc4e3a78467b3c44aed2452453b409fa47401ebe483365.js" type="text/javascript" charset="utf-8" integrity="sha256-dm5I&#43;sZFzon&#43;vE46eEZ7PESu0kUkU7QJ&#43;kdAHr5IM2U="></script>
+    
+
+
+
+
+
+
+
+<meta property="og:title" content="RxnGPT2: Rxn-prompted Sequence Generator" />
+<meta property="og:description" content="Background The goal of enzyme engineering in catalytic reaction space is searching for the most potent enzyme variant that efficiently catalyzes a reaction of interest." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://iparkirk.github.io/research/llm/" /><meta property="article:section" content="research" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="RxnGPT2: Rxn-prompted Sequence Generator"/>
+<meta name="twitter:description" content="Background The goal of enzyme engineering in catalytic reaction space is searching for the most potent enzyme variant that efficiently catalyzes a reaction of interest."/>
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <div class="header-top">
+    <h1 class="site-title">
+    <a href="/">Inhee Park, PhD (Computational Protein / Machine Learning Engineer)</a>
+</h1>
+    <ul class="social-icons">
+
+
+    
+        <li>
+            <a href="https://www.linkedin.com/in/inheepark" title="Linkedin" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://github.com/ipark-CS" title="Github" rel="me">
+            <span class="inline-svg" >
+
+
+
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://gitlab.com/ipark" title="Gitlab" rel="me">
+                <span class="inline-svg" >
+
+
+
+
+    
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<path fill="currentColor" d="M123.5,52.9c-2.7-7.8-13.8-7.8-16.6,0L57.2,206.6h116C173.1,206.6,123.5,52.9,123.5,52.9z M31.8,283.9
+		c-2.3,7,0.3,14.9,6.2,19.3l217.9,161.7L57.1,206.6L31.8,283.9z M173.1,206.6L256,464.9l82.9-258.4H173.1z M480.2,283.9l-25.3-77.3
+		L256,464.9l217.9-161.7C479.9,298.7,482.4,290.9,480.2,283.9z M405.2,52.9c-2.7-7.8-13.8-7.8-16.6,0l-49.7,153.6h116L405.2,52.9z"
+		/>
+</g>
+</svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+
+</ul>
+</div>
+
+    <nav>
+        
+        
+        <a class="" href="https://iparkirk.github.io/resume/" title="">Resume</a>
+        
+        <a class="" href="https://iparkirk.github.io/research/" title="">Biotech</a>
+        
+        <a class="" href="https://iparkirk.github.io/projects/" title="">Computer Science</a>
+        
+    </nav>
+
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                <h1 class="p-name post-title">RxnGPT2: Rxn-prompted Sequence Generator</h1>
+
+                
+            </header>
+        </div>
+        <div class="content e-content">
+            <h2 id="background" >Background
+<span>
+    <a href="#background">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>The goal of enzyme engineering in catalytic reaction space is searching for
+the most potent enzyme variant that efficiently catalyzes a reaction of
+interest. A folded enzyme sequence accommodates a substrate (chemical
+compound) binding to a catalytic site and converts it to a product (a
+beneficial form of chemical compound via natural mechanism as an
+alternative to chemical synthesis).
+To initiate an engineering scope to search for engineered enzyme variants
+shown in Fig 1D, we should first find a hit pair of indexed (wild-type)
+enzymes and substrates from the high-throughput screening (HTS) shown
+in Fig 1C.</p>
+<p>To initiate an engineering scope to search for engineered enzyme variants
+shown in Fig 1D, we should first find a hit pair of indexed (wild-type)
+enzymes and substrates from the high-throughput screening (HTS) shown
+in Fig 1C.
+A traditional approach to setting up an HTS is a separate, two-stage
+search: (1) expansive substrate (chemistry) scope and (2) shrinking
+enzyme (biology) scope, as depicted in Fig 1A-B. A plate of HTS is filled
+up with the resulting substrates and enzymes candidate set. Due to
+uncoupled searches, however, this traditional approach not only takes time
+but also undergoes off-target problems.</p>
+<img src="/img/LLM/llm1.png" width="400" style="border:0px solid black;">
+<h2 id="rxngpt2" >RxnGPT2
+<span>
+    <a href="#rxngpt2">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>To accelerate a speed, more importantly, to ensure tight coupling between
+substrate and enzyme scoping, we build a reaction-prompted, enzyme
+sequence generator large language model, RxnGPT2, via three steps: (1)
+generalizing reaction space; (2) constructing substrate-enzyme knowledge
+association data; and (3) end-to-end approach from a reaction of interest
+all the way to catalytic site elucidation.</p>
+<h3 id="1-generalizing-reaction-space" >(1) Generalizing reaction space
+<span>
+    <a href="#1-generalizing-reaction-space">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>Reaction similarity is different from chemical structure similarity. Semantic
+similarity in reaction space can be attained by utilizing atomic mapping
+from reactant side and product side [1]. Subsequently we identify the
+atoms undergoing a change within a various radius [2]. Consequently, we
+can search similar reactions semantically, instead of traditional chemical
+structure (such as SMILES strings) or fingerprint pattern-based search.</p>
+<h3 id="2-constructing-substrate-enzyme-knowledge-association-data" >(2) Constructing substrate-enzyme knowledge association data
+<span>
+    <a href="#2-constructing-substrate-enzyme-knowledge-association-data">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>With the generalized reaction data, we then associate a reaction to
+corresponding enzyme sequence by utilizing multiple databases such as
+Rhea and UnitPro (comprehensive database and tools listed in Fig 2).</p>
+<img src="/img/LLM/llm2.png" width="570" style="border:0px solid black;">
+<h3 id="3-end-to-end-approach-from-a-reaction-of-interest-all-the-way-to-catalytic-site-elucidation" >(3) End-to-end approach from a reaction of interest all the way to catalytic site elucidation.
+<span>
+    <a href="#3-end-to-end-approach-from-a-reaction-of-interest-all-the-way-to-catalytic-site-elucidation">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h3><p>With the coupled data as our train set, we build a RxnGPT2 model by
+training from scratch with a base architecture of GPT2-124M . Our input
+data consists of</p>
+<pre tabindex="0"><code>{prompt}&lt;sep&gt;{response}
+</code></pre><p>where {prompt} is a
+generalized catalytic reaction at various granularities, and {response} is an
+enzyme sequence. We used Byte-Pair-Encoding (BPE) for both chemical
+reaction strings and amino acid sequence strings. This is different from 20
+amino acid based tokenization used in other protein language models.
+Moreover, to our knowledge, there is no such generative model yet
+tokenizing both chemical language and protein language simultaneously.
+Detailed training specification in terms of trainset, tokenization, and GPU
+usage is summarized in Fig 3.</p>
+<p>Fig 4 demonstrates a showcase of the RxnGPT2: reaction-prompted,
+generated sequences in tabular form with extra information especially a
+low perplexity (metric of quality of generated sequences). Fig 5
+demonstrate a truly end-to-end application of the RxnGP2. Users just enter
+a reaction of interest to the generator at any granularity either in SMILES or
+SMARTS, and the RxnGPT2 returns an elucidated catalytic site view on the
+folded structure from the generated sequence.</p>
+<img src="/img/LLM/llm3.png" width="570" style="border:0px solid black;">
+<img src="/img/LLM/llm4.png" width="570" style="border:0px solid black;">
+<p>In conclusion, the RxnGPT2 expedite a traditional two-stage substrates
+and enzyme scopes in tightly coupled, End-to-End, one-stop approach
+without extensive prior knowledge on the catalytic site structural
+information. It is a promising generator for enzyme discovery.</p>
+<h2 id="references" >References
+<span>
+    <a href="#references">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>[1] Schwaller P, Hoover B, Reymond JL, Strobelt H, Laino T. Extraction of
+organic chemistry grammar from unsupervised learning of chemical
+reactions. Sci Adv. 2021 Apr 7;7(15):eabe4166. doi:
+10.1126/sciadv.abe4166. PMID: 33827815; PMCID: PMC8026122.</p>
+<p>[2] Kannas C, Thakkar A, Bjerrum E, Genheden S. rxnutils – A
+Cheminformatics Python Library for Manipulating Chemical Reaction Data.
+ChemRxiv. Cambridge: Cambridge Open Engage; 2022; This content is a
+preprint and has not been peer-reviewed.</p>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+
+    <a class="post-hidden-url u-url" href="https://iparkirk.github.io/research/llm/">https://iparkirk.github.io/research/llm/</a>
+    <a href="https://iparkirk.github.io/" class="p-name p-author post-hidden-author h-card" rel="me">ipark</a>
+
+
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        
+                        <li><a href="https://iparkirk.github.io/tags/gpt2/">#GPT2</a></li>
+                    
+                        
+                        <li><a href="">#End-to-End Generator</a></li>
+                    
+                        
+                        <li><a href="">#Generative AI</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+
+    
+        
+
+
+
+
+
+
+
+    
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Inhee Park, 2023<br>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.<br>
+            
+            </p>  
+        </div> 
+
+        
+
+
+
+
+<script>
+const STORAGE_KEY = 'user-color-scheme'
+const defaultTheme = "light-without-switcher"
+
+let currentTheme
+let switchButton
+let autoDefinedScheme = window.matchMedia('(prefers-color-scheme: dark)')
+
+const autoChangeScheme = e => {
+    currentTheme = e.matches ? 'dark' : 'light'
+    document.documentElement.setAttribute('data-theme', currentTheme)
+    changeButtonText()
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    switchButton = document.querySelector('.theme-switcher')
+    currentTheme = detectCurrentScheme()
+    if (currentTheme == 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark')
+    }
+    if (currentTheme == 'auto') {
+        autoChangeScheme(autoDefinedScheme);
+        autoDefinedScheme.addListener(autoChangeScheme);
+    }
+
+    if (switchButton) {
+        changeButtonText()
+        switchButton.addEventListener('click', switchTheme, false)
+    }
+  
+    showContent()
+})
+
+function detectCurrentScheme() {
+    if (localStorage.getItem(STORAGE_KEY)) {
+        return localStorage.getItem(STORAGE_KEY)
+    } 
+    if (defaultTheme) {
+        return defaultTheme
+    } 
+    if (!window.matchMedia) {
+        return 'light'
+    } 
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        return 'dark'
+    }
+    return 'light'
+}
+
+function changeButtonText()
+{   
+    if (switchButton) {
+        switchButton.textContent = currentTheme == 'dark' ?  "Light theme" : "Dark theme"
+    }
+}
+
+function switchTheme(e) {
+    if (currentTheme == 'dark') {
+        localStorage.setItem(STORAGE_KEY, 'light')
+        document.documentElement.setAttribute('data-theme', 'light')
+        currentTheme = 'light'
+    } else {
+        localStorage.setItem(STORAGE_KEY, 'dark')
+        document.documentElement.setAttribute('data-theme', 'dark')
+        currentTheme = 'dark'
+    }
+    changeButtonText()
+}
+
+function showContent() {
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = 1;
+}
+</script>   
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=https://iparkirk.github.io/ class="p-name u-url url fn" rel="me">Inhee Park</a> 
+
+    
+
+    
+</p> 
+</footer>
+
+        
+    </div>
+</body>
+</html>
