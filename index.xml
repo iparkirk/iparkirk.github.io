@@ -851,16 +851,16 @@ the most potent enzyme variant that efficiently catalyzes a reaction of
 interest. A folded enzyme sequence accommodates a substrate (chemical
 compound) binding to a catalytic site and converts it to a product (a
 beneficial form of chemical compound via natural mechanism as an
-alternative to chemical synthesis).
-To initiate an engineering scope to search for engineered enzyme variants
+alternative to chemical synthesis).&lt;/p&gt;
+&lt;p&gt;To initiate an engineering scope to search for engineered enzyme variants
 shown in Fig 1D, we should first find a hit pair of indexed (wild-type)
 enzymes and substrates from the high-throughput screening (HTS) shown
 in Fig 1C.&lt;/p&gt;
 &lt;p&gt;To initiate an engineering scope to search for engineered enzyme variants
 shown in Fig 1D, we should first find a hit pair of indexed (wild-type)
 enzymes and substrates from the high-throughput screening (HTS) shown
-in Fig 1C.
-A traditional approach to setting up an HTS is a separate, two-stage
+in Fig 1C.&lt;/p&gt;
+&lt;p&gt;A traditional approach to setting up an HTS is a separate, two-stage
 search: (1) expansive substrate (chemistry) scope and (2) shrinking
 enzyme (biology) scope, as depicted in Fig 1A-B. A plate of HTS is filled
 up with the resulting substrates and enzymes candidate set. Due to
@@ -922,8 +922,8 @@ Detailed training specification in terms of trainset, tokenization, and GPU
 usage is summarized in Fig 3.&lt;/p&gt;
 &lt;p&gt;Fig 4 demonstrates a showcase of the RxnGPT2: reaction-prompted,
 generated sequences in tabular form with extra information especially a
-low perplexity (metric of quality of generated sequences). Fig 5
-demonstrates a truly end-to-end application of the RxnGP2. Users just enter
+low perplexity (metric of quality of generated sequences).&lt;/p&gt;
+&lt;p&gt;Fig 5 demonstrates a truly end-to-end application of the RxnGP2. Users just enter
 a reaction of interest to the generator at any granularity either in SMILES or
 SMARTS, and the RxnGPT2 returns an elucidated catalytic site view on the
 folded structure from the generated sequence.&lt;/p&gt;
